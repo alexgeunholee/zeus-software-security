@@ -46,7 +46,7 @@ Thus, the attacker fails to execute the shellcode.
 Dynamic reencryption prevents the return address from overwritten to the starting address of the ROP chain.
 Thus, the attack has failed to execute the ROP chain and could not open the shellcode.
 
-Followings show some Zesu patents.
+Followings show some Zeus patents.
 
 US8583939: Method and apparatus for securing indirect function calls by using program counter encoding
 Abstract: A method for securing indirect function calls by using program counter encoding is provided. The method includes inserting a decoding code for an address of a library function stored in a GOT (Global Offset Table) entry into a PLT (Procedure Linkage Table) entry when an object file is built; generating an encoding key corresponding to the decoding code; and encoding the GOT entry corresponding to the library function by using the encoding key when program execution begins.
