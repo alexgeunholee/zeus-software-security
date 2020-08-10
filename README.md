@@ -6,7 +6,7 @@ Zeus uses the program counter encoding technique to protect pointers (return add
 
 Buffer Overflow Attacks overwrite a buffer in a computer memory beyond buffer boundary so that a nearby code pointer is set to an address that attackers desire: The control-flow diverts to the attacker’s destination when the pointer is de-referenced. From the attacker’s destination, illegal control-flow begins that results in allowing the attacker to execute arbitrary code or leaking of critical information. Zeus dynamically re-encrypts code pointers using code for encryption inserted at compile time for obfuscation of code pointers to mitigate both control-flow interception and leakage of code pointer values. Zeus re-encrypts code pointers in runtime before or after risky operations. 
 
-Zeus can successfully mitigate real world cyber security attacks reported in CVE (Common Vulnerabilities and Exposures). Followings illustrate some demos regarding Zeus defense againt real world cyber security attacks reported in CVE.
+Zeus can successfully mitigate real world cyber security attacks reported in CVE (Common Vulnerabilities and Exposures). Followings illustrate some demos regarding Zeus defense against real world cyber security attacks reported in CVE.
 
 Zeus Defense Demo against Code Pointer Attack I
 
