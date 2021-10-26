@@ -1,11 +1,3 @@
-Zeus Software Defender Technology (“Zeus”) is a tool for hardening C and C++ programs to provide shields for protecting against cyber security attacks. 
-
-SEI (Carnegie Mellon University Software Engineering Institute) operates the CERT Division that is supported by the US government and which is the world best in software security research. According to the CERT C and C++ Coding Standard for Secure Coding in C and C++, all code pointers must be protected in any C and C++ based software. 
-
-Zeus uses the program counter encoding technique to protect pointers (return addresses, function pointers), which control data for address of an instruction on memory, implemented into C and C++ Compilers to reduce software vulnerabilities effectively without increasing execution time for protective measures, and thus, to provide secure software through hardening executable binaries.
-
-Buffer Overflow Attacks overwrite a buffer in a computer memory beyond buffer boundary so that a nearby code pointer is set to an address that attackers desire: The control-flow diverts to the attacker’s destination when the pointer is de-referenced. From the attacker’s destination, illegal control-flow begins that results in allowing the attacker to execute arbitrary code or leaking of critical information. Zeus dynamically re-encrypts code pointers using code for encryption inserted at compile time for obfuscation of code pointers to mitigate both control-flow interception and leakage of code pointer values. Zeus re-encrypts code pointers in runtime before or after risky operations. 
-
 Zeus can successfully mitigate real world cyber security attacks reported in CVE (Common Vulnerabilities and Exposures). Followings illustrate some demos regarding Zeus defense against real world cyber security attacks reported in CVE.
 
 Zeus Defense Demo against Code Pointer Attack I
